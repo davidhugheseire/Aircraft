@@ -1,5 +1,6 @@
 view: aircraft_engine_types {
   sql_table_name: flightstats.aircraft_engine_types ;;
+  drill_fields: [aircraft_engine_type_id]
 
   dimension: aircraft_engine_type_id {
     primary_key: yes

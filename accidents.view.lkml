@@ -1,5 +1,6 @@
 view: accidents {
   sql_table_name: flightstats.accidents ;;
+  drill_fields: [id]
 
   dimension: id {
     primary_key: yes

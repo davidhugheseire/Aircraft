@@ -1,5 +1,6 @@
 view: zipcodes {
   sql_table_name: flightstats.zipcodes ;;
+  drill_fields: [zipcode_id]
 
   dimension: zipcode_id {
     primary_key: yes

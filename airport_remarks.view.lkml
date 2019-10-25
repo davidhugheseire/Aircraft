@@ -1,5 +1,6 @@
 view: airport_remarks {
   sql_table_name: flightstats.airport_remarks ;;
+  drill_fields: [airport_remark_id]
 
   dimension: airport_remark_id {
     primary_key: yes
